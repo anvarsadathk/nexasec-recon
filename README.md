@@ -15,6 +15,19 @@
 
 ---
 
+## ⭐ Start here: `nexascan` — the all-in-one scanner
+
+New to the toolkit? Run **[nexascan](https://github.com/anvarsadathk/nexascan)** — it chains every check below into a single scope-enforced pass and writes one severity-ranked report (console · JSON · HTML).
+
+```bash
+git clone https://github.com/anvarsadathk/nexascan.git
+python3 nexascan/nexascan.py example.com --yes-authorized
+```
+
+Prefer the individual tools when you want granular control over one phase. The 10 below are what nexascan orchestrates.
+
+---
+
 ## 🧰 The toolkit
 
 | Tool | What it does | Phase | Deps |
